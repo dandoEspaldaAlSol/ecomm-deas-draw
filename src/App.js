@@ -6,6 +6,19 @@ import Contact from './components/Contact';
 import About from './components/About';
 import NavBarExample from './layouts/navbar';
 
+
+const Dibujos = (exposicion, lugar, mes) => {
+  return(
+    <>
+    
+      <h1>{exposicion}</h1>
+      <div>
+      <p>en {lugar}</p>
+      <p>en el mes de {mes}</p>
+      </div>
+      </>
+  )
+}
 function App() {
   return (
     <div className="App">
@@ -19,7 +32,14 @@ function App() {
       </Route>
      </Routes>
      </BrowserRouter>
-    </div>
+<hr/>
+     {Dibujos("Arte Urbano","Palermo","septiembre" )}
+     <hr/>
+     {Dibujos("Resistencia","San miguel","Noviembre" )}
+
+</div>
+
+
   );
 }
 
