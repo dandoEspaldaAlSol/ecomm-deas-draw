@@ -1,29 +1,29 @@
 
 
-const ItemListContainer = (id,formato, serie) => {
+const ItemListContainer = (props) => {
+    
     return(
-        <>
-    <h2> Dibujo : {id}</h2>
-    <div>
-      <p>{formato}</p>
-      <p>{serie} </p>
-    </div>
+    <>
+    <h2>{props.id}</h2>
     <hr/>
-   
     
-    
-        </>
+    </>
     );
 }
   
+
+
 const CartWidget = () => {
-    return (
-        <>
-            {ItemListContainer("1", "a4", "paisajes")}
-            {ItemListContainer("2", "a3", "retratos")}
-        </>
+    
+    return(
+    <>
+          <ItemListContainer id="1"/>
+
+    </>
     );
 }
+  
+
 
   
 export default CartWidget;
