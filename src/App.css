@@ -7,13 +7,7 @@
   pointer-events: none;
 }
 
-.Counter{
-  width: fit-content;
-  background-color: greenyellow;
-  margin: auto;
-  padding: 1rem;
-  text-align: center;
-}
+
 
 h1{
   color: black;
