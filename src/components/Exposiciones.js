@@ -1,10 +1,11 @@
+import NavBar from "./NavBar";
 
 
 const Exposiciones = () => {
     return(
-        <div>
-            
-        </div>
+        <>
+          <NavBar/>  
+        </>
     );
         
     

@@ -1,18 +1,17 @@
 import React from 'react';
-
 import NavBar from './components/NavBar';
-import CartWidget from './components/CartWidget';
-
+import Body from './components/Body';
 
 
 
 
 function App() {
   return (
-    <div>
+    <>
       <NavBar/>
-      <CartWidget/>
-    </div>
+      <Body/>
+      
+    </>
   );
 }
 

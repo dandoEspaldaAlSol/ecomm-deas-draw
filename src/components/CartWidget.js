@@ -1,23 +1,11 @@
-
-
-const ItemListContainer = (props) => {
-    
-    return(
-    <>
-    <h2>{props.id}</h2>
-    <hr/>
-    
-    </>
-    );
-}
-  
-
+import ItemListContainer from "./ItemListContainer";
 
 const CartWidget = () => {
     
     return(
     <>
-          <ItemListContainer id="1"/>
+    <ItemListContainer  id="1" formato="a4" serie="paisaje"/>
+    
 
     </>
     );
