@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from './components/NavBar';
-import Body from './components/Body';
+import CartWidget from './components/CartWidget';
 
 
 
@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <NavBar/>
-      <Body/>
+      <CartWidget/>
       
     </>
   );

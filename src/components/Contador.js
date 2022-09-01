@@ -3,14 +3,19 @@ import React,{useState} from "react";
 
 const Contador= ({initial, stock, onAdd}) => {
    const[count, setCount]= useState(initial);
-
+ <Contador initial={1} 
+ stock={5}
+ onAdd={onAdd}/>
 const decrease=()=>{
   setCount(count - 1);
 }
 const increase=()=>{
   setCount(count + 1);
 }
-  
+
+
+
+
   return(
         <>
           <div>
@@ -22,6 +27,7 @@ const increase=()=>{
             </div>
           </div>
         </>
+        
     );
         
     
